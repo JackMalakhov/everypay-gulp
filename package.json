@@ -1,0 +1,20 @@
+{
+  "name": "everypaygulp",
+  "version": "1.0.0",
+  "description": "rework test task to adict",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jack Malakhov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.3.0"
+  },
+  "dependencies": {
+    "gulp-pug": "^5.0.0",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everypay</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="page-header__menu">
+            <img class="page-header__logo" src="./assets/images/Logo.svg" alt="Logo">
+            <nav class="page-header__nav site-nav">
+                <a class="site-nav__link" href="#howItWorks">Как это работает?</a>
+                <a class="site-nav__link" href="#forWhom">Для кого</a>
+                <a class="site-nav__link" href="#cases">Кейсы</a>
+                <a class='site-nav__link' href="#tariffs">Тарифы</a>
+                <a class="site-nav__link" href="#safety">Безопасность</a>
+            </nav>
+
+
+            <div class="menu__item menu_lang">
+                <input class='menu__button menu__button_ru' type="button" value="RU" >
+                <input class='menu__button menu__button_en' type="button" value="EN">
+            </div>
+            <input type="button" value="подключиться" class="menu__item button button_subscribe button_white">
+        </div>
+
+
+                <div id="menu_mobile" class="menu_mobile">
+                  <div class="menu_mobile__main">
+                  <div class="menu__item">
+                    <img src="./assets/images/Logo.svg" alt="Everypay">
+                  </div>
+                  <div class="nenu__item">
+                    <button id="menuDrop" class="menu__drop" >
+                      <img src="../../assets/images/menu.svg" alt="Everypay">
+                    </button>
+                  </div>
+                </div>
+                  <div id="myMenu" class="menu_mobile__nav">
+                    <a href="#howItWorks" >Как это работает?</a>
+                    <a href="#forWhom">Для кого</a>
+                    <a href="#cases">Кейсы</a>
+                    <a href="#tariffs">Тарифы</a>
+                    <a href="#safety">Безопасность</a>
+                    <a href="#footer">Контакты</a>
+                    <input type="button" value="Вход" class="button">
+                  </div>
+                </div> 
+            
+    </header>
+
+    <aside class="aside">
+        <div class="aside__card main_two_colls">
+            <div class="aside__info"> 
+                <h2>Не пропускайте важные оплаты</h2>
+                <p>Если от них зависят ваши проекты или старт рекламных кампаний</p>
+            <form method="GET" class="check" id="form1" name="sheckEmail1" onsubmit="alert('Проверьте e-mail!'); return false;">
+                <div class="start">
+                    <input type="email" name="e-mail1" required id="email1" class='input check__input'>
+                    <label class="check__label" for="email1">Введите email</label>
+                    <input type="submit" value="узнать" class="button check__button">
+                </div>
+                <!-- <div class="done">
+                    <img src="../../assets/images/done.svg" alt="done">
+                    <p>Проверьте e-mail!</p>
+                </div> -->
+            </form>
+            
+            </div>
+            <div class="aside__picture">
+              <img src="./assets/images/money.svg" alt="">
+            </div>
+            </div>
+
+            <div class="aside__card main_two_colls">
+                <div class="aside__info"> <h2>Сократите издержки на бухгалтерию и коммуникации</h2>
+                
+                <p>Получайте информацию о платежах на счет компании там, где вам удобно</p>
+                <form method="GET" class="check" id="form2" name="sheckEmail1" onsubmit="alert('Проверьте e-mail!'); return false;">
+                    <div class="start">
+                        <input type="email" name="e-mai2" required id="email2" class='input check__input'>
+                        <label class="check__label" for="email2">Введите email</label>
+                        <input type="submit" value="узнать" class="button check__button">
+                    </div>
+                    <!-- <div class="done">
+                        <img src="../../assets/images/done.svg" alt="done">
+                        <p>Проверьте e-mail!</p>
+                    </div> -->
+                </form>
+                
+                </div>
+                <div class="aside__picture">
+                  <img src="./assets/images/Pig.svg" alt="">
+                </div>
+                </div>
+
+                <div class="card main_two_colls">
+                    <div class="aside__info"> <h2>Создавайте собственные сценарии действий </h2>
+                    
+                    <p>при поступлении денег на счет вашей компании</p>
+                    <form method="GET" class="check" id="form3" name="sheckEmail1" onsubmit="alert('Проверьте e-mail!'); return false;">
+                        <div class="start">
+                            <input type="email" name="e-mai3" required id="email3" class='input check__input'>
+                            <label class="check__label" for="email3">Введите email</label>
+                            <input type="submit" value="узнать" class="button check__button">
+                        </div>
+                        <!-- <div class="done">
+                            <img src="../../assets/images/done.svg" alt="done">
+                            <p>Проверьте e-mail!</p>
+                        </div> -->
+                    </form>
+                    
+                    </div>
+                    <div class="aside__picture">
+                      <img src="./assets/images/table.svg" alt="" >
+                    </div>
+                    </div>
+
+                    <div class="aside__card main_two_colls">
+                        <div class="aside__info"> <h2>Реагируйте на платежи так быстро, как они поступают на ваш счет</h2>
+                        
+                        <p></p>
+                        <form method="GET" class="check" id="form4" name="sheckEmail1" onsubmit="alert('Проверьте e-mail!'); return false;">
+                            <div class="start">
+                                <input type="email" name="e-mai4" required id="email4" class='input check__input'>
+                                <label class="check__label" for="email4">Введите email</label>
+                                <input type="submit" value="узнать" class="button check__button">
+                            </div>
+                            <!-- <div class="done">
+                                <img src="../../assets/images/done.svg" alt="done">
+                                <p>Проверьте e-mail!</p>
+                            </div> -->
+                        </form>
+                        
+                        </div>
+                        <div class="aside__picture">
+                          <img src="./assets/images/notifications.svg" alt="" >
+                        </div>
+                        </div>
+            
+    </aside>
+
+    <main  class="main">
+
+        <section id="offer" class="main__container main_two_colls offer">
+            <figure class="main__item picture">
+                <img src="./assets/images/Chat.svg" alt="Chat">
+            </figure>
+            <article class="main__item article">
+                <h3>Мы предлагаем вам простой инструмент, чтобы автоматизировать информирование о поступающих оплатах.</h3>
+                <p>Бухгалтер на карантине, а директор недоступен? Ответственный сотрудник моментально узнает
+                о поступлении денег на счет компании.</p>
+            </article>
+        </section>
+         
+
+        <section id="howItWorks" class="main__container howItWorks">
+            <h2>Как это работает</h2>
+            <article class="main_three_colls main_three_colls__less360 howItWorks__box">
+                <figure class="main__item">
+                    <img src="./assets/images/step1.svg" alt="step 1" >
+                    <p>Подключите свой банковский счет</p>
+                </figure>
+                
+                <figure class="main__item">
+                    <img src="./assets/images/step2.svg" alt="step 2" >
+                    <p>Выберите, куда и кому отправлять информацию</p>
+                </figure>
+
+                <figure class="main__item">
+                    <img src="./assets/images/step3.svg" alt="step 3" >
+                    <p>Получайте информацию о поступивших оплатах</p>
+                </figure>
+            </article>
+        </section>
+
+
+        <section id="auto-biz" class="main__container main_two_colls auto-biz">
+            <h2 class="main__item">Автоматизируйте бизнес-процессы</h2>
+            <div class="main__item">
+                <p>Подключайте привычные приложения, которые вы используете в работе.</p>
+                <form method="GET" class="check" id="form.1" name="checkEmail1" onsubmit="alert('Проверьте e-mail!'); return false;">
+                    <div class="start">
+                        <input type="email" name="email.1" required id="email.1" class='input check__input'>
+                        <label class="check__label" for="email.1">Введите email</label>
+                        <input type="submit" value="узнать" class="button check__button">
+                    </div>
+                    <!-- <div class="done">
+                        <img src="../../assets/images/done.svg" alt="done">
+                        <p>Проверьте e-mail!</p>
+                    </div> -->
+                </form>
+            </div>
+        </section>
+
+
+        <section id="banks" class="main__container banks">
+            <h2>Банки и интеграции</h2>
+            <article class="main_two_colls">
+                <section class="main__item">
+                    <h5 class="main__name">Банки</h5>
+                    <figure class="banks-pictures main_two_colls">
+                        <img src="./assets/images/toshkaBank.svg" alt="tochkaBank" >
+                        <img src="./assets/images/tinkiffBank.svg" alt="tinkoffbank" >
+                        <img src="./assets/images/modulBank.svg" alt="modulBank">
+                    </figure>
+                    <hr>
+                    <figure class="banks-1C main_three_colls">
+                        <img src="./assets/images/plus.svg" alt="plus">
+                        <img src="./assets/images/csv.svg" alt="csv">
+                        <p>Загрузка из <b>1C</b></p>
+                    </figure>
+                </section>
+
+                <section class="main__item">
+                    <h5 class="main__name">Интеграции</h5>
+                    <figure class="main_two_colls">
+                        <img src="./assets/images/bell.svg" alt="bell">
+                        <p>Push-web уведомления</p>
+                    </figure>
+                    <figure class="main_two_colls">
+                        <img src="./assets/images/mail.svg" alt="mail">
+                        <p>E-mail уведомления</p>
+                    </figure>
+                    <figure class="main_two_colls">
+                        <img src="./assets/images/telegram.svg" alt="telegram">
+                        <p>Telegram</p>
+                    </figure>
+                </section>
+            </article>
+        </section>
+
+
+
+        <section id="forWhom" class="main__container forWhom">
+            <h2>Для кого</h2>
+            <article class="main_three_colls main__box main_three_colls__less360">
+                <figure class="main__item">
+                    <img src="./assets/images/MoneyTree.svg" alt="tree" >
+                    <h3>Малый бизнес</h3>
+                    <p>Скорость получения информации о платежах и минимизация издержек</p>
+                </figure>
+                <figure class="main__item">
+                    <img src="./assets/images/Unicorn.svg" alt="unicorn" >
+                    <h3>Стартапы</h3>
+                    <p>Автоматизация бизнес-процессов и бухгалтерской рутинык</p>
+                </figure>
+                <figure class="main__item">
+                    <img src="./assets/images/lamp.svg" alt="lamp" >
+                    <h3>Разработчики</h3>
+                    <p>Быстрое внедрение своих приложений для малого бизнеса и стартапов</p>
+                </figure>
+            </article>
+        </section>
+
+
+        <section id="cases" class="main__container cases">
+            <h2>Кейсы</h2>
+            <article class="main_three_colls">
+                <figure class="main__item">
+                    <img src="./assets/images/case1.svg" alt="case1">
+                    <h3>Автоматизация диджитал-агентства</h3>
+                    <a href="#" class="main__link">
+                        <p>Читать кейс</p><img src="./assets/images/arrow.svg" alt="arrow">
+                    </a>
+                </figure>
+                <figure class="main__item">
+                    <img src="./assets/images/case2.svg" alt="case2">
+                    <h3>Приём платежей в рекламной медиа-группе</h3>
+                    <a href="#" class="main__link">
+                        <p>Читать кейс</p><img src="./assets/images/arrow.svg" alt="arrow">
+                    </a>
+                </figure>
+                <figure class="main__item">
+                    <img src="./assets/images/case3.svg" alt="case3">
+                    <h3>Оптимизация бухгалтерии в производственной компании</h3>
+                    <a href="#" class="main__link">
+                        <p>Читать кейс</p><img src="./assets/images/arrow.svg" alt="arrow">
+                    </a>
+                </figure>
+            </article>
+
+            <div class="main__dots">
+                <div class="main__dot main__dot_first"> </div>
+                <div class="main__dot"> </div>
+                <div class="main__dot"> </div>
+                <div class="main__dot"> </div>
+                <div class="main__dot"> </div>
+            </div>
+            
+        </section>
+
+
+
+        <section id="tariffs" class="main__container tariffs">
+            <h2 class="name">Тарифы</h2>
+            <article class="main__item article">
+                
+                <p>
+                    Everypay находится в стадии закрытого
+                    beta-теста, но у вас есть возможность
+                    присоединиться к тестированию сервиса.
+                </p>
+                <p>
+                    Для компаний, участвующих в тестировании,
+                    сервис  навсегда бесплатен. Напишите нам 
+                    и мы с вами свяжемся.
+                </p>
+
+            </article>
+            <figure class="main__item picture">
+                <img src="./assets/images/rubl.svg" alt="rubl">
+           </figure>
+           <div class="check" >
+            <form method="GET" class="start" onsubmit="alert('Проверьте e-mail!'); return false;" id="start" >
+                <input required type="email" name="e-mai.2" id="email.2" class='input check__input'>
+                <label class="check__label" for="email.2">Введите email</label>
+                <input type="submit" value="узнать" class='button check__button'>
+            
+            <!-- <div id="done">
+                <img src="../../assets/images/done.svg" alt="done">
+                <p>Проверьте e-mail!</p>
+            </div> -->
+            </form>
+        </div>
+        </section>
+
+
+
+        <section id="commingSoon" class="main__container commingSoon">
+            <h2>Скоро появится</h2>
+            <section class="main_two_colls">
+                <h4>Интеграции с CRM-системами Битрикс 24 и amoCRM</h4>
+                <article class="main__item">
+                    <img src="./assets/images/line.svg" alt="line" class="main__line">
+                    <div class="main__box">
+                        <p>Интегрируйте уведомления о платежах прямо в вашу CRM, в которой работают ваши сотрудники</p>
+                        <img src="./assets/images/bitrix.svg" alt="bitrix">
+                        <img src="./assets/images/autocrm.svg" alt="autocrm">
+                        
+                    </div>
+                    
+                </article>
+                
+            </section>
+            <hr>
+            <section class="main_two_colls">
+                <h4>Открытое API Everypay</h4>
+                <article class="main__item">
+                    <img src="./assets/images/line.svg" alt="line" class="main__line">
+                    
+                    <div class="main__box">
+                        <p>Подключайте свои системы и интегрируйте уведомления о поступающих платежах самостоятельно с помощью простого API Everypay</p>
+                        
+                    </div>
+                </article>
+                
+            </section>
+            <hr>
+            <section class="main_two_colls">
+                <h4>Автоматическое создание платежек</h4>
+                <article class="main__item">
+                    <img src="./assets/images/line.svg" alt="line" class="main__line">
+                    <p>Загрузите скан счета на оплату в нашу систему и в банк-клиенте автоматически будет создано платежное поручение на основании данных из счета. С помощью технологий компьютерного зрения и машинного обучения мы достигаем высокой точности и скорости работы</p>
+                </article>
+            </section>
+            <h3 class="main__andMore">И еще 17 нововведений</h3>
+        </section>
+          
+
+        <section id="safety" class="main__container safety">
+            <figure class="main__item picture">
+            <img src="./assets/images/locker.svg" alt="locker" >
+            </figure>
+            <h2 class="name">Безопасность</h2>
+            <article class="main__item article">
+                <p >Использование Everypay полностью безопасно: подключение к банковскому счету осуществляется в режиме «только для получения выписок», а хранение информации в системе защищено и деперсонализировано.</p>
+            </article>
+        </section>
+                                                            
+    </main>
+
+
+
+    <footer id="footer" class="footer">
+        <section class="footer__contaier footer">
+            <h2 class="footer__name">
+                Подключиться
+            </h2>
+            <div class="footer__main main_two_colls">
+                
+            <article class="footer__item">
+                
+                <p>
+                    Хотите начать пользоваться системой? <br>Напишите нам.
+                </p>
+                <em class="footer__email">email</em>
+                <p>hello@everypay.io</p>
+            </article>
+           
+            <form method="GET" class="footer__item" onsubmit="alert('Спасибо!\nМы приняли ваш запрос.\n\nВ ближайшее время наш специалист поддержки свяжется с вами.');">
+                <p>
+                <input required type="text" name="BIO" value="" id="BIO" class="input footer__input" placeholder="Ваше имя*">
+                <label for="BIO" ></label>
+                </p>
+                <p>
+                <input required type="email" name="emai.3" value="" id="EMAIL" class="input footer__input" placeholder="Email*">
+                <label for="EMAIL"></label>
+                </p>
+                <p>
+                <textarea required name="about" cols="30" rows="4" id="ABOUT" class="input footer__textarea" placeholder="Расскажите о своей компании*"></textarea>
+                <label for="ABOUT"></label>
+                </p>
+                <p>
+                <input class="button button_subscribe" type="submit" value="Подключиться">
+                </p>
+            </form>
+            <!-- <div class="footer-right-done" *ngIf="done">
+                <p>
+                    <br><br> Спасибо!<br>Мы приняли ваш запрос.<br><br>В ближайшее время наш специалист поддержки свяжется с вами. <br>
+                </p>
+                </div> -->
+            </div> 
+            <div class="footer__downside">
+                <p class="footer__everypay">
+                    © 2020, Everypay
+                </p>
+                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+                
+            </div>
+        </section>
+          
+    </footer>
+</body>
+</html>
